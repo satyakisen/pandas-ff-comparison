@@ -31,6 +31,23 @@ Memory Usage  | 7.6 MB | 8.4 MB | 7.6 MB |  7.6 MB |
 Check the notebook for more details.
 
 ## Numerical + Categorical Data (Object)<a name="num_data_cat_obj"/>
+Data Count: 5M || RT Environment: Google Colab || Ram: 12.68GB || Disk: 107.72GB
+Parameters     | CSV           | HDF5          | Parquet       | Feather       |
+-------------  | ------------- | ------------- | ------------- | ------------- |
+Write Time  | 46.10 sec | 3.87 sec | 1.77 sec | 1.15 sec |
+Read Time   | 16.3 sec | 1.49 sec | 0.841 sec | 0.648 sec |
+File Size On Disk  | 530 MB | 425 MB | 195 MB | 245 MB |
+Memory Usage  | 642.5 MB | 680.7 MB | 642.5 MB |  642.5 MB |
 
+Check the notebook for more details.
 
 ## Numerical + Categorical Data (pandas.Category)<a name="num_data_cat"/>
+Data Count: 5M || RT Environment: Google Colab || Ram: 12.68GB || Disk: 107.72GB
+Parameters     | CSV           | HDF5          | Parquet       | Feather       |
+-------------  | ------------- | ------------- | ------------- | ------------- |
+Write Time  | 48.4 sec | 4.38 sec | 1.25 sec | 0.831 sec |
+Read Time   | 8.78 sec | 1.14 sec | 0.704 sec | 0.515 sec |
+File Size On Disk  | 567 MB | 389 MB | 195 MB | 219 MB |
+Memory Usage  | 680.7 MB | 386.2 MB | 348.1 MB |  348.1 MB |
+
+Check the notebook for more details.
